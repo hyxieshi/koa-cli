@@ -2,14 +2,14 @@
  * @Author: SunBOY
  * @Date: 2022-11-07 14:48:25
  * @LastEditors: SunBOY
- * @LastEditTime: 2022-11-07 15:09:26
+ * @LastEditTime: 2022-11-07 19:05:39
  * @FilePath: \router\index.js
  * @Description:
  * Copyright 2022 OBKoro1, All Rights Reserved.
  * 2022-11-07 14:48:25
  */
 import Router from "koa-router";
-import getUser from "../contollers";
+import getUser from "../contollers/index.js";
 
 const router = new Router({
   prefix: "/api",

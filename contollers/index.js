@@ -2,13 +2,13 @@
  * @Author: SunBOY
  * @Date: 2022-11-07 15:04:37
  * @LastEditors: SunBOY
- * @LastEditTime: 2022-11-07 15:07:48
+ * @LastEditTime: 2022-11-07 19:04:17
  * @FilePath: \contollers\index.js
  * @Description:
  * Copyright 2022 OBKoro1, All Rights Reserved.
  * 2022-11-07 15:04:37
  */
-import User from "../models/User";
+import User from "../models/User.js";
 
 async function getUser() {
   return await User.find();

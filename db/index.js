@@ -2,7 +2,7 @@
  * @Author: SunBOY
  * @Date: 2022-11-07 14:53:36
  * @LastEditors: SunBOY
- * @LastEditTime: 2022-11-07 14:57:49
+ * @LastEditTime: 2022-11-07 19:06:07
  * @FilePath: \db\index.js
  * @Description:
  * Copyright 2022 OBKoro1, All Rights Reserved.
@@ -11,7 +11,7 @@
 import mongoose from "mongoose";
 
 const URL = "mongodb://localhost/sunboy-koa";
-mongoose.connect(URl, {
+mongoose.connect(URL, {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 });
