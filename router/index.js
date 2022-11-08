@@ -2,7 +2,7 @@
  * @Author: SunBOY
  * @Date: 2022-11-07 14:48:25
  * @LastEditors: SunBOY
- * @LastEditTime: 2022-11-08 16:53:06
+ * @LastEditTime: 2022-11-08 16:55:47
  * @FilePath: d:\xike\Desktop\koa-cli\router\index.js
  * @Description:
  * Copyright 2022 OBKoro1, All Rights Reserved.
@@ -12,7 +12,7 @@ import Router from "koa-router";
 import getUser from "../contollers/index.js";
 
 const router = new Router({
-  prefix: "/api", //配置统一前缀
+  //prefix: "/api", //配置统一前缀
 });
 // router.prefix = '/api'
 router.get("/", async (ctx) => {
