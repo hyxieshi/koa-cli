@@ -2,8 +2,8 @@
  * @Author: SunBOY
  * @Date: 2022-11-07 14:48:25
  * @LastEditors: SunBOY
- * @LastEditTime: 2022-11-07 19:05:39
- * @FilePath: \router\index.js
+ * @LastEditTime: 2022-11-08 16:53:06
+ * @FilePath: d:\xike\Desktop\koa-cli\router\index.js
  * @Description:
  * Copyright 2022 OBKoro1, All Rights Reserved.
  * 2022-11-07 14:48:25
@@ -12,7 +12,7 @@ import Router from "koa-router";
 import getUser from "../contollers/index.js";
 
 const router = new Router({
-  prefix: "/api",
+  prefix: "/api", //配置统一前缀
 });
 // router.prefix = '/api'
 router.get("/", async (ctx) => {
@@ -21,9 +21,7 @@ router.get("/", async (ctx) => {
 });
 router.get("/user", async (ctx) => {
   ctx.status = 200;
-  //   koa-body
-  // 解析get参数
-  console.log(ctx.query);
+  console.log(ctx.query); //
   ctx.body = await getUser();
 });
 
