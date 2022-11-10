@@ -2,8 +2,8 @@
  * @Author: SunBOY
  * @Date: 2022-11-10 19:17:08
  * @LastEditors: SunBOY
- * @LastEditTime: 2022-11-10 23:26:27
- * @FilePath: \router\a.js
+ * @LastEditTime: 2022-11-10 23:43:34
+ * @FilePath: \router\login.js
  * @Description:
  * Copyright 2022 OBKoro1, All Rights Reserved.
  * 2022-11-10 19:17:08
@@ -30,7 +30,11 @@ login.post("/user", async (ctx) => {
   });
   ctx.body = `token:${token}`;
 });
-
+/**
+ * @description: 校验token
+ * @return {*}
+ * @Author: SunBOY
+ */
 login.get("/userinfo", async (ctx) => {
   const header = ctx.header;
   if (header["authorization"]) {
