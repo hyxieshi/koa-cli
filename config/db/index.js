@@ -2,8 +2,8 @@
  * @Author: SunBOY
  * @Date: 2022-11-07 14:53:36
  * @LastEditors: SunBOY
- * @LastEditTime: 2022-11-10 01:30:13
- * @FilePath: \contollers\db\index.js
+ * @LastEditTime: 2022-11-10 17:03:13
+ * @FilePath: \config\db\index.js
  * @Description:
  * Copyright 2022 OBKoro1, All Rights Reserved.
  * 2022-11-07 14:53:36
